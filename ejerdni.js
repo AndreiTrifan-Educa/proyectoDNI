@@ -77,8 +77,11 @@ switch(letraDNI){
 }
 
     if(letraDNI==dni[8]){
-      return "La letra está bien";
+      return "El DNI está bien";
     }else{
-      return "La letrá NO está bien";
+      return "El DNI NO está bien";
     }
 }
+
+dni = prompt("Introduce tu DNI para validarlo:");
+alert(validarDNI(dni));
